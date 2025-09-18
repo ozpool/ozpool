@@ -1,8 +1,5 @@
 # Hi there, I'm Oz! 👋
 
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/your-linkedin) 
-[![Email](https://img.shields.io/badge/-Email-yellow?style=flat-square&logo=gmail)](mailto:youremail@example.com)
-
 <!-- Optional extras:
 ![Profile Views](https://komarev.com/ghpvc/?username=ozpool&style=flat-square&color=blueviolet)
 ![GitHub Followers](https://img.shields.io/github/followers/ozpool?style=flat-square)
@@ -10,53 +7,41 @@
 
 ## 🚀 About Me
 
-I'm a dedicated **Full-Stack Web Developer** passionate about creating reliable, scalable, and user-friendly web applications. I specialize in modern frontend frameworks and backend systems that power real-world solutions.
-
-Currently focused on building high-performance Web2 applications with a strong emphasis on responsive UI, performance, and clean architecture.
-
----
-
-## 🛠️ Skills & Technologies
-
-**Front-End Development:**
-
-[![My Skills](https://skillicons.dev/icons?i=html,css,js,ts,react,next,tailwind,redux&theme=light)](https://skillicons.dev#gh-light-mode-only)  
-[![My Skills](https://skillicons.dev/icons?i=html,css,js,ts,react,next,tailwind,redux&theme=dark)](https://skillicons.dev#gh-dark-mode-only)
-
-**Back-End Development:**
-
-[![My Skills](https://skillicons.dev/icons?i=nodejs,express,mongodb,postgres&theme=light)](https://skillicons.dev#gh-light-mode-only)  
-[![My Skills](https://skillicons.dev/icons?i=nodejs,express,mongodb,postgres&theme=dark)](https://skillicons.dev#gh-dark-mode-only)
-
-**DevOps & Tools:**
-
-[![My Skills](https://skillicons.dev/icons?i=vercel,netlify,git,github,docker,firebase&theme=light)](https://skillicons.dev#gh-light-mode-only)  
-[![My Skills](https://skillicons.dev/icons?i=vercel,netlify,git,github,docker,firebase&theme=dark)](https://skillicons.dev#gh-dark-mode-only)
-
-**Testing & Others:**
-
-[![My Skills](https://skillicons.dev/icons?i=jest,cypress,postman,figma&theme=light)](https://skillicons.dev#gh-light-mode-only)  
-[![My Skills](https://skillicons.dev/icons?i=jest,cypress,postman,figma&theme=dark)](https://skillicons.dev#gh-dark-mode-only)
+I’m a **Blockchain & Smart Contract Developer** with **5+ years of experience** designing secure and scalable Web3 applications.  
+I work across **DeFi, NFTs, cross-chain interoperability, and smart contract infrastructure** — turning research-driven ideas into production-ready solutions.
 
 ---
 
-## 📊 GitHub Stats
+## 🔧 Tech Stack
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ozpool&show_icons=true&theme=radical" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ozpool&theme=radical" />
-</p>
+- **Smart Contracts & Tooling**: Solidity · Hardhat · Foundry · OpenZeppelin · Truffle · Brownie  
+- **Ethereum Libraries**: Ethers.js · Web3.js · Viem · Wagmi  
+- **DeFi & Token Standards**: ERC-20 · ERC-721 · ERC-1155 · ERC-4626 · EIP-2981 · EIP-2771  
+- **Cross-Chain & Layer 2**: LayerZero · Wormhole · Fx-Portal · Polygon · Arbitrum · Optimism  
+- **Security & Testing**: MythX · Slither · Echidna · Tenderly · Mocha · Chai · Waffle  
+- **Data & Infra**: The Graph · GraphQL · SubQuery · AWS · GCP  
+
+---
+
+## 🚀 Highlights & Contributions
+
+- Built **intent-based systems** that map user actions into blockchain execution.  
+- Developed **cross-chain interoperability frameworks** with gas abstraction.  
+- Engineered **algorithmic stablecoins, AMMs, and CDP-based lending protocols**.  
+- Designed NFT platforms with **royalties, gasless transactions, and Layer 2 scaling**.  
+- Created **secure upgradable smart contracts** (UUPS · Transparent Proxy · Beacon).  
+- Contributed to **protocol audits** and integrated **DeFi protocols** (Aave, Compound, Curve, Balancer, Lido).  
 
 ---
 
-## 🧠 Currently Exploring
+## 🌱 Currently Exploring
 
-- Advanced component libraries and design systems
-- Performance optimizations with Next.js & SSR
-- Type-safe APIs with TypeScript & tRPC
-- Headless CMS & modern content workflows
+- MEV-aware architectures  
+- Decentralized oracles (Chainlink, Pyth)  
+- Intent-driven systems for blockchain UX  
 
 ---
+
 
 ## 💡 Fun Facts
 
