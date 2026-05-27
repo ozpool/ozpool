@@ -61,15 +61,16 @@ go           ████           2y
 
 ## 🛠 what i'm building
 
-<!-- TODO: real repos. Format mirrors m1guelpf-style one-liners. -->
+<sub>own public repos — top by stars, auto-refreshed by `scripts/update.sh`.</sub>
 
-- **[\_protocol-name\_](#)** — _short one-line description of what it does_
-- **[\_protocol-name\_](#)** — _short one-line description of what it does_
-- **[\_protocol-name\_](#)** — _short one-line description of what it does_
-- **[\_protocol-name\_](#)** — _short one-line description of what it does_
+<!--
+  Auto-refreshed twice daily by .github/workflows/update-readme.yml.
+  Do not edit content between START:building and END:building by hand.
+-->
 
-> _replace placeholders with real repos when ready; section is hand-curated,
-> not auto-generated._
+<!-- START:building -->
+_pending workflow run._
+<!-- END:building -->
 
 ---
 
@@ -113,20 +114,26 @@ Reentrancy, oracle manipulation, access control, arithmetic edges.
 
 ---
 
-## 🌐 ecosystem contributions
+## 🌊 outflow
+
+<sub>open-source pull requests across other repos — grouped by repo, capped at top
+10 by volume. Auto-refreshed by `scripts/update.sh`.</sub>
 
 <!--
   Auto-refreshed twice daily by .github/workflows/update-readme.yml.
-  Do not edit content between START:ecosystem and END:ecosystem by hand.
+  Do not edit content between START:outflow and END:outflow by hand.
 -->
 
-<!-- START:ecosystem -->
-_no contributions indexed yet — workflow will populate this block on next run._
-<!-- END:ecosystem -->
+<!-- START:outflow -->
+_no open-source contributions indexed yet — workflow will populate this block on next run._
+<!-- END:outflow -->
 
 ---
 
 ## 📌 issues filed
+
+<sub>issues opened by `ozpool` in other repos, split open / closed. Auto-refreshed
+by `scripts/update.sh`.</sub>
 
 ### 🟢 open
 
