@@ -1,55 +1,87 @@
-# Hi there, I'm Oz! 👋
+<div align="center">
 
-<!-- Optional extras:
-![Profile Views](https://komarev.com/ghpvc/?username=ozpool&style=flat-square&color=blueviolet)
-![GitHub Followers](https://img.shields.io/github/followers/ozpool?style=flat-square)
+```text
+┌───────────────────────────────────────────────────┐
+│  ozpool · blockchain & smart-contract engineer    │
+│  five years writing code that holds under load    │
+└───────────────────────────────────────────────────┘
+```
+
+</div>
+
+## about
+
+I write contracts and the off-chain plumbing that keeps them honest. Five years
+across DeFi lending, NFT infrastructure, and cross-chain messaging — Solidity
+when the chain is the source of truth, Rust and Go when it isn't. The code I
+ship runs under adversarial conditions, so I optimise for the qualities that
+matter there: events on every state change, return values checked, threat
+model written before the first line of logic.
+
+Lately reading more on MEV-aware design, the gap between Chainlink and Pyth
+oracle assumptions, and what intent-based execution actually changes about
+contract architecture.
+
+## depth chart
+
+```text
+solidity     ████████████   5y
+typescript   █████████      4y
+rust         ████████       3y
+go           ████           2y
+foundry      ███████████    ~5y
+layerzero    ██████         3y
+```
+
+## what i'm building
+
+| repo | what it does | stack | status |
+| :--- | :--- | :--- | :--- |
+<!-- TODO: real repo rows -->
+| _to be filled_ | _ozpool projects land here once pinned_ | — | — |
+
+## invariants
+
+- every state change emits an event
+- every external call's return value is checked
+- threat model is written before implementation, not after
+- no `unchecked` block without a comment proving the math
+- upgradability is a feature, not a default — `UUPS` only where it earns its rent
+
+## security work
+
+Slither + Foundry invariants + a manual pass against an explicit threat model.
+Reentrancy, oracle manipulation, access control, arithmetic edges.
+
+- available for solidity audits and pre-launch threat modelling
+- bridge / cross-chain message-integrity reviews
+- invariant-suite design for new protocols
+
+## ecosystem contributions
+
+<!--
+  Auto-refreshed twice daily by .github/workflows/update-readme.yml.
+  Do not edit content between START:ecosystem and END:ecosystem by hand.
 -->
 
-## 🚀 About Me
+<!-- START:ecosystem -->
+_no contributions indexed yet — workflow will populate this block on next run._
+<!-- END:ecosystem -->
 
-I’m a **Blockchain & Smart Contract Developer** with **5+ years of experience** designing secure and scalable Web3 applications.  
-I work across **DeFi, NFTs, cross-chain interoperability, and smart contract infrastructure** — turning research-driven ideas into production-ready solutions.
+## issues filed
 
----
+### open
 
-## 🔧 Tech Stack
+<!-- START:issues-open -->
+_pending workflow run._
+<!-- END:issues-open -->
 
-- **Smart Contracts & Tooling**: Solidity · Hardhat · Foundry · OpenZeppelin · Truffle · Brownie  
-- **Ethereum Libraries**: Ethers.js · Web3.js · Viem · Wagmi  
-- **DeFi & Token Standards**: ERC-20 · ERC-721 · ERC-1155 · ERC-4626 · EIP-2981 · EIP-2771  
-- **Cross-Chain & Layer 2**: LayerZero · Wormhole · Fx-Portal · Polygon · Arbitrum · Optimism  
-- **Security & Testing**: MythX · Slither · Echidna · Tenderly · Mocha · Chai · Waffle  
-- **Data & Infra**: The Graph · GraphQL · SubQuery · AWS · GCP  
+### closed
 
----
-
-## 🚀 Highlights & Contributions
-
-- Built **intent-based systems** that map user actions into blockchain execution.  
-- Developed **cross-chain interoperability frameworks** with gas abstraction.  
-- Engineered **algorithmic stablecoins, AMMs, and CDP-based lending protocols**.  
-- Designed NFT platforms with **royalties, gasless transactions, and Layer 2 scaling**.  
-- Created **secure upgradable smart contracts** (UUPS · Transparent Proxy · Beacon).  
-- Contributed to **protocol audits** and integrated **DeFi protocols** (Aave, Compound, Curve, Balancer, Lido).  
+<!-- START:issues-closed -->
+_pending workflow run._
+<!-- END:issues-closed -->
 
 ---
 
-## 🌱 Currently Exploring
-
-- MEV-aware architectures  
-- Decentralized oracles (Chainlink, Pyth)  
-- Intent-driven systems for blockchain UX  
-
----
-
-
-## 💡 Fun Facts
-
-- 🎮 Gaming and tech geek
-- 🎧 Music-driven coder
-- ✨ Addicted to crafting pixel-perfect UIs
-
----
-
-🚀 Let's build something amazing — clean, fast, and user-first.
-
+<p align="center"><sub><i>deep pool, slow drain.</i></sub></p>

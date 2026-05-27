@@ -1,0 +1,13 @@
+{
+  "name": "ozpool-profile",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "update-readme": "tsx scripts/update-readme.ts"
+  },
+  "devDependencies": {
+    "@octokit/rest": "^21.0.2",
+    "@types/node": "^22.7.4",
+    "tsx": "^4.19.1"
+  }
+}
