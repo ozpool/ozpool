@@ -61,15 +61,58 @@ go           ████           2y
 
 ## 🛠 what i'm building
 
-<!-- TODO: real repos. Format mirrors m1guelpf-style one-liners. -->
+<sub>own public repos — top by stars, auto-refreshed by `scripts/update.sh`.</sub>
 
-- **[\_protocol-name\_](#)** — _short one-line description of what it does_
-- **[\_protocol-name\_](#)** — _short one-line description of what it does_
-- **[\_protocol-name\_](#)** — _short one-line description of what it does_
-- **[\_protocol-name\_](#)** — _short one-line description of what it does_
+<!--
+  Auto-refreshed twice daily by .github/workflows/update-readme.yml.
+  Do not edit content between START:building and END:building by hand.
+-->
 
-> _replace placeholders with real repos when ready; section is hand-curated,
-> not auto-generated._
+<!-- START:building -->
+<details>
+<summary><b><a href="https://github.com/ozpool/prism">prism</a></b> · `Solidity` · ⭐ 1 · updated 2026-05-07</summary>
+
+Liquidity Management Protocol on Uniswap V4
+
+</details>
+
+<details>
+<summary><b><a href="https://github.com/ozpool/Perplex">Perplex</a></b> · `TypeScript` · ⭐ 0 · updated 2026-05-27</summary>
+
+Perplex — dYdX-class decentralised perpetuals exchange. Off-chain Rust matching engine + on-chain Solidity settlement on Arbitrum. Pyth oracles, 8h funding, liquidation + ADL backstop, EIP-712 signed batch settlement.
+
+topics: `arbitrum` `axum` `defi` `dex` `ethereum` `foundry` `perpetuals` `pyth` `rust` `solidity`
+
+</details>
+
+<details>
+<summary><b><a href="https://github.com/ozpool/Eigenvex">Eigenvex</a></b> · `—` · ⭐ 0 · updated 2026-05-13</summary>
+
+Perpetual futures protocol on Solana — hybrid orderbook + vAMM, cross-margin, DAO-curated listings
+
+</details>
+
+<details>
+<summary><b><a href="https://github.com/ozpool/atlas-lend">atlas-lend</a></b> · `TypeScript` · ⭐ 0 · updated 2026-02-17</summary>
+
+_no description_
+
+</details>
+
+<details>
+<summary><b><a href="https://github.com/ozpool/Solidity0.1">Solidity0.1</a></b> · `—` · ⭐ 0 · updated 2025-11-05</summary>
+
+_no description_
+
+</details>
+
+<details>
+<summary><b><a href="https://github.com/ozpool/aave-solidity">aave-solidity</a></b> · `—` · ⭐ 0 · updated 2025-09-18</summary>
+
+_no description_
+
+</details>
+<!-- END:building -->
 
 ---
 
@@ -113,14 +156,17 @@ Reentrancy, oracle manipulation, access control, arithmetic edges.
 
 ---
 
-## 🌐 ecosystem contributions
+## 🌊 outflow
+
+<sub>open-source pull requests across other repos — grouped by repo, capped at top
+10 by volume. Auto-refreshed by `scripts/update.sh`.</sub>
 
 <!--
   Auto-refreshed twice daily by .github/workflows/update-readme.yml.
-  Do not edit content between START:ecosystem and END:ecosystem by hand.
+  Do not edit content between START:outflow and END:outflow by hand.
 -->
 
-<!-- START:ecosystem -->
+<!-- START:outflow -->
 <details>
 <summary><b><a href="https://github.com/Soju06/codex-lb">Soju06/codex-lb</a></b> · 24 PRs · <a href="https://github.com/Soju06/codex-lb/pulls?q=author%3Aozpool+is%3Apr">all →</a></summary>
 
@@ -199,11 +245,14 @@ Reentrancy, oracle manipulation, access control, arithmetic edges.
 - [`#22265`](https://github.com/smartcontractkit/chainlink/pull/22265) — fix(pipeline): reject partially-consumed input in JSONWithVarExprs · `open`
 
 </details>
-<!-- END:ecosystem -->
+<!-- END:outflow -->
 
 ---
 
 ## 📌 issues filed
+
+<sub>issues opened by `ozpool` in other repos, split open / closed. Auto-refreshed
+by `scripts/update.sh`.</sub>
 
 ### 🟢 open
 
@@ -224,16 +273,15 @@ _no closed issues filed._
 
 ---
 
-## 📊 stats
+## 🌱 github activity
+
+<sub>contribution heatmap — last 365 days. served by
+[`ghchart.rshah.org`](https://github.com/2016rshah/githubchart-api),
+tinted to match the cyan accents.</sub>
 
 <div align="center">
 
-<a href="https://github.com/ozpool">
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=ozpool&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&icon_color=06B6D4&title_color=22D3EE" alt="stats" />
-</a>
-<a href="https://github.com/ozpool">
-  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ozpool&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&title_color=22D3EE" alt="top langs" />
-</a>
+[![ozpool contribution graph](https://ghchart.rshah.org/06B6D4/ozpool)](https://github.com/ozpool)
 
 </div>
 
