@@ -275,24 +275,24 @@ _no closed issues filed._
 
 ## 📊 stats
 
+<sub>SVGs self-rendered nightly by [`lowlighter/metrics`](https://github.com/lowlighter/metrics)
+via `.github/workflows/metrics.yml` and committed to the repo. No vercel
+runtime dependency — never returns 503.</sub>
+
 <div align="center">
 
+![GitHub followers](https://img.shields.io/github/followers/ozpool?style=for-the-badge&color=06B6D4&labelColor=0F172A)
+![GitHub stars](https://img.shields.io/github/stars/ozpool?style=for-the-badge&color=14B8A6&labelColor=0F172A&affiliations=OWNER)
+![Profile views](https://komarev.com/ghpvc/?username=ozpool&style=for-the-badge&color=22D3EE&label=VIEWS)
+
+<br/>
+
 <a href="https://github.com/ozpool">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=ozpool&theme=tokyo_night" alt="profile details" />
+  <img src="./metrics.svg" alt="ozpool metrics" />
 </a>
 
 <a href="https://github.com/ozpool">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=ozpool&theme=tokyo_night" alt="stats" />
-</a>
-<a href="https://github.com/ozpool">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=ozpool&theme=tokyo_night" alt="repos per language" />
-</a>
-
-<a href="https://github.com/ozpool">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=ozpool&theme=tokyo_night" alt="most-commit language" />
-</a>
-<a href="https://github.com/ozpool">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=ozpool&theme=tokyo_night&utcOffset=0" alt="productive time" />
+  <img src="./metrics-langs.svg" alt="languages breakdown" />
 </a>
 
 </div>
