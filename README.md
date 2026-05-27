@@ -273,6 +273,20 @@ _no closed issues filed._
 
 ---
 
+## 🌱 github activity
+
+<sub>contribution heatmap — last 365 days. served by
+[`ghchart.rshah.org`](https://github.com/2016rshah/githubchart-api),
+tinted to match the cyan accents.</sub>
+
+<div align="center">
+
+[![ozpool contribution graph](https://ghchart.rshah.org/06B6D4/ozpool)](https://github.com/ozpool)
+
+</div>
+
+---
+
 ## 📊 stats
 
 <sub>SVGs self-rendered nightly by [`lowlighter/metrics`](https://github.com/lowlighter/metrics)
