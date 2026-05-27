@@ -1,55 +1,160 @@
-# Hi there, I'm Oz! 👋
+<div align="center">
 
-<!-- Optional extras:
-![Profile Views](https://komarev.com/ghpvc/?username=ozpool&style=flat-square&color=blueviolet)
-![GitHub Followers](https://img.shields.io/github/followers/ozpool?style=flat-square)
+<a href="https://github.com/ozpool">
+  <img src="https://readme-typing-svg.demolab.com/?lines=ozpool+%C2%B7+blockchain+%26+smart-contract+engineer;five+years+writing+code+that+holds+under+load;defi+%C2%B7+nfts+%C2%B7+cross-chain+%C2%B7+smart-contract+infra&font=Fira+Code&center=true&width=720&height=48&color=06B6D4&vCenter=true&size=20&pause=1200" alt="ozpool" />
+</a>
+
+<p>
+  <img src="https://komarev.com/ghpvc/?username=ozpool&style=for-the-badge&color=06B6D4&label=PROFILE+VIEWS" alt="views" />
+  <img src="https://img.shields.io/github/followers/ozpool?style=for-the-badge&color=14B8A6&labelColor=0F172A" alt="followers" />
+  <img src="https://img.shields.io/badge/open_to-audits_%26_contracts-22D3EE?style=for-the-badge&labelColor=0F172A" alt="open to" />
+</p>
+
+</div>
+
+---
+
+## 🪞 about
+
+I write contracts and the off-chain plumbing that keeps them honest. Five years
+across DeFi lending, NFT infrastructure, and cross-chain messaging — Solidity
+when the chain is the source of truth, Rust and Go when it isn't.
+
+The code I ship runs under adversarial conditions, so I optimise for the
+qualities that matter there: events on every state change, return values
+checked, threat model written before the first line of logic.
+
+Lately reading more on MEV-aware design, the gap between Chainlink and Pyth
+oracle assumptions, and what intent-based execution actually changes about
+contract architecture.
+
+---
+
+## 🧭 now
+
+```text
+┌─ now ────────────────────────────────────────────────┐
+│  🛠   shipping     defi · cross-chain · audits        │
+│  📬   available    yes — solidity audits + contracts  │
+│  🌊   signature    pool runs deep                     │
+│  ⚡   response     ~24h                               │
+│  🔗   reach        github.com/ozpool                  │
+└──────────────────────────────────────────────────────┘
+```
+
+---
+
+## ⚡ depth chart
+
+> *depth = available liquidity of experience.*
+
+```text
+solidity     ████████████   5y
+foundry      ███████████   ~5y
+typescript   █████████      4y
+rust         ████████       3y
+layerzero    ██████         3y
+go           ████           2y
+```
+
+---
+
+## 🛠 what i'm building
+
+<!-- TODO: real repos. Format mirrors m1guelpf-style one-liners. -->
+
+- **[\_protocol-name\_](#)** — _short one-line description of what it does_
+- **[\_protocol-name\_](#)** — _short one-line description of what it does_
+- **[\_protocol-name\_](#)** — _short one-line description of what it does_
+- **[\_protocol-name\_](#)** — _short one-line description of what it does_
+
+> _replace placeholders with real repos when ready; section is hand-curated,
+> not auto-generated._
+
+---
+
+## 🧰 stack
+
+<sub>flat list, no badge soup. depth in `depth chart` above.</sub>
+
+```text
+🧠  languages       solidity · rust · go · typescript · python · move · vyper · js
+⚒️  contracts       foundry · hardhat · openzeppelin · remix · anvil · safe · tenderly · oz-defender
+🔗  web3 libs       ethers.js · viem · wagmi · web3.js · web3.py · metamask-sdk
+🧱  standards       erc-20 · erc-721 · erc-1155 · erc-4626 · erc-2981 · erc-4337 · eip-2771 · eip-7702
+🌉  cross-chain     layerzero · wormhole · axelar · chainlink-ccip · hyperlane · fx-portal
+⛓️  chains          ethereum · arbitrum · optimism · base · polygon · zksync · bnb · solana
+📊  oracles         chainlink · pyth · redstone · api3
+🛡️  security        slither · echidna · mythril · foundry-invariants · halmos · certora · mythx
+📡  data            the-graph · goldsky · subquery · ponder · postgres · redis
+☁️  infra           docker · k8s · aws · gcp · prometheus · grafana · github-actions
+```
+
+---
+
+## 📐 invariants
+
+- 📣 every state change emits an event
+- 🔁 every external call's return value is checked
+- 🧭 threat model is written before implementation, not after
+- 🧮 no `unchecked` block without a comment proving the math
+- 🔐 upgradability is a feature, not a default — `UUPS` only where it earns its rent
+
+---
+
+## 🛡️ security work
+
+Slither + Foundry invariants + a manual pass against an explicit threat model.
+Reentrancy, oracle manipulation, access control, arithmetic edges.
+
+- 🧪 solidity audits and pre-launch threat modelling
+- 🌉 bridge / cross-chain message-integrity reviews
+- 📏 invariant-suite design for new protocols
+
+---
+
+## 🌐 ecosystem contributions
+
+<!--
+  Auto-refreshed twice daily by .github/workflows/update-readme.yml.
+  Do not edit content between START:ecosystem and END:ecosystem by hand.
 -->
 
-## 🚀 About Me
-
-I’m a **Blockchain & Smart Contract Developer** with **5+ years of experience** designing secure and scalable Web3 applications.  
-I work across **DeFi, NFTs, cross-chain interoperability, and smart contract infrastructure** — turning research-driven ideas into production-ready solutions.
-
----
-
-## 🔧 Tech Stack
-
-- **Smart Contracts & Tooling**: Solidity · Hardhat · Foundry · OpenZeppelin · Truffle · Brownie  
-- **Ethereum Libraries**: Ethers.js · Web3.js · Viem · Wagmi  
-- **DeFi & Token Standards**: ERC-20 · ERC-721 · ERC-1155 · ERC-4626 · EIP-2981 · EIP-2771  
-- **Cross-Chain & Layer 2**: LayerZero · Wormhole · Fx-Portal · Polygon · Arbitrum · Optimism  
-- **Security & Testing**: MythX · Slither · Echidna · Tenderly · Mocha · Chai · Waffle  
-- **Data & Infra**: The Graph · GraphQL · SubQuery · AWS · GCP  
+<!-- START:ecosystem -->
+_no contributions indexed yet — workflow will populate this block on next run._
+<!-- END:ecosystem -->
 
 ---
 
-## 🚀 Highlights & Contributions
+## 📌 issues filed
 
-- Built **intent-based systems** that map user actions into blockchain execution.  
-- Developed **cross-chain interoperability frameworks** with gas abstraction.  
-- Engineered **algorithmic stablecoins, AMMs, and CDP-based lending protocols**.  
-- Designed NFT platforms with **royalties, gasless transactions, and Layer 2 scaling**.  
-- Created **secure upgradable smart contracts** (UUPS · Transparent Proxy · Beacon).  
-- Contributed to **protocol audits** and integrated **DeFi protocols** (Aave, Compound, Curve, Balancer, Lido).  
+### 🟢 open
 
----
+<!-- START:issues-open -->
+_pending workflow run._
+<!-- END:issues-open -->
 
-## 🌱 Currently Exploring
+### 🟣 closed
 
-- MEV-aware architectures  
-- Decentralized oracles (Chainlink, Pyth)  
-- Intent-driven systems for blockchain UX  
+<!-- START:issues-closed -->
+_pending workflow run._
+<!-- END:issues-closed -->
 
 ---
 
+## 📊 stats
 
-## 💡 Fun Facts
+<div align="center">
 
-- 🎮 Gaming and tech geek
-- 🎧 Music-driven coder
-- ✨ Addicted to crafting pixel-perfect UIs
+<a href="https://github.com/ozpool">
+  <img height="160" src="https://github-readme-stats.vercel.app/api?username=ozpool&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&icon_color=06B6D4&title_color=22D3EE" alt="stats" />
+</a>
+<a href="https://github.com/ozpool">
+  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ozpool&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&title_color=22D3EE" alt="top langs" />
+</a>
+
+</div>
 
 ---
 
-🚀 Let's build something amazing — clean, fast, and user-first.
-
+<p align="center"><sub><i>🌊 deep pool, slow drain.</i></sub></p>
