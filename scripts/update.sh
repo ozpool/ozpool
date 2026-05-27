@@ -49,12 +49,7 @@ jq -r --arg profile "$PROFILE_REPO" --argjson n "$MAX_BUILDING" '
   | .[0:$n]
   | map(
       "<details>\n"
-      + "<summary><b><a href=\"\(.html_url)\">\(.name)</a></b>"
-      + " · `\(.language // "—")`"
-      + " · ⭐ \(.stargazers_count // 0)"
-      + (if (.forks_count // 0) > 0 then " · 🍴 \(.forks_count)" else "" end)
-      + " · updated \((.pushed_at // .updated_at) | sub("T.*"; ""))"
-      + "</summary>\n\n"
+      + "<summary><b><a href=\"\(.html_url)\">\(.name)</a></b></summary>\n\n"
       + ((.description // "_no description_") | gsub("[\r\n]+"; " "))
       + (if ((.topics // []) | length) > 0
          then "\n\ntopics: " + ((.topics // []) | map("`" + . + "`") | join(" "))
