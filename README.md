@@ -287,30 +287,4 @@ tinted to match the cyan accents.</sub>
 
 ---
 
-## 📊 stats
-
-<sub>SVGs self-rendered nightly by [`lowlighter/metrics`](https://github.com/lowlighter/metrics)
-via `.github/workflows/metrics.yml` and committed to the repo. No vercel
-runtime dependency — never returns 503.</sub>
-
-<div align="center">
-
-![GitHub followers](https://img.shields.io/github/followers/ozpool?style=for-the-badge&color=06B6D4&labelColor=0F172A)
-![GitHub stars](https://img.shields.io/github/stars/ozpool?style=for-the-badge&color=14B8A6&labelColor=0F172A&affiliations=OWNER)
-![Profile views](https://komarev.com/ghpvc/?username=ozpool&style=for-the-badge&color=22D3EE&label=VIEWS)
-
-<br/>
-
-<a href="https://github.com/ozpool">
-  <img src="./metrics.svg" alt="ozpool metrics" />
-</a>
-
-<a href="https://github.com/ozpool">
-  <img src="./metrics-langs.svg" alt="languages breakdown" />
-</a>
-
-</div>
-
----
-
 <p align="center"><sub><i>🌊 deep pool, slow drain.</i></sub></p>
