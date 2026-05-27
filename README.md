@@ -128,22 +128,6 @@ Reentrancy, oracle manipulation, access control, arithmetic edges.
 
 <!-- START:outflow -->
 <details>
-<summary><b><a href="https://github.com/ANCILAR/website-blogs">ANCILAR/website-blogs</a></b> · 26 PRs · <a href="https://github.com/ANCILAR/website-blogs/pulls?q=author%3Aozpool+is%3Apr">all →</a></summary>
-
-- [`#38`](https://github.com/ANCILAR/website-blogs/pull/38) — Backdated blogs 1 · `merged`
-- [`#37`](https://github.com/ANCILAR/website-blogs/pull/37) — Add RAG System Architecture investment brief (2024-01-12, ICP-1) · `merged`
-- [`#36`](https://github.com/ANCILAR/website-blogs/pull/36) — Backdated blogs: Jan 10–12 2024 batch (10 posts) + main merge + audit fixes · `merged`
-- [`#35`](https://github.com/ANCILAR/website-blogs/pull/35) — feat(blog): Governor Bravo vs OpenZeppelin Governor architecture (202… · `merged`
-- [`#34`](https://github.com/ANCILAR/website-blogs/pull/34) — feat(blog): MEV-Boost architecture PBS relay protection (2024-01-11, … · `merged`
-- [`#33`](https://github.com/ANCILAR/website-blogs/pull/33) — feat(blog): DeFi governance token voting and treasury brief (2024-01-… · `merged`
-- [`#32`](https://github.com/ANCILAR/website-blogs/pull/32) — feat(blog): MEV infrastructure Flashbots block builder brief (2024-01… · `merged`
-- [`#31`](https://github.com/ANCILAR/website-blogs/pull/31) — feat(blog): Foundry testing patterns fuzz invariant fork (2024-01-10,… · `merged`
-- [`#30`](https://github.com/ANCILAR/website-blogs/pull/30) — feat(blog): 1inch Fusion vs Paraswap DEX aggregator architecture (202… · `merged`
-- [`#29`](https://github.com/ANCILAR/website-blogs/pull/29) — feat(blog): Foundry vs Hardhat tooling investment brief (2024-01-10, … · `merged`
-
-</details>
-
-<details>
 <summary><b><a href="https://github.com/Soju06/codex-lb">Soju06/codex-lb</a></b> · 24 PRs · <a href="https://github.com/Soju06/codex-lb/pulls?q=author%3Aozpool+is%3Apr">all →</a></summary>
 
 - [`#829`](https://github.com/Soju06/codex-lb/pull/829) — feat(accounts): surface email-duplicate pairs in /api/accounts · `open`
@@ -219,16 +203,6 @@ Reentrancy, oracle manipulation, access control, arithmetic edges.
 - [`#22267`](https://github.com/smartcontractkit/chainlink/pull/22267) — docs: drop deprecated parity-ethereum / openethereum references · `open`
 - [`#22266`](https://github.com/smartcontractkit/chainlink/pull/22266) — fix(bridges): treat bridge names case-insensitively on read and on create · `open`
 - [`#22265`](https://github.com/smartcontractkit/chainlink/pull/22265) — fix(pipeline): reject partially-consumed input in JSONWithVarExprs · `open`
-
-</details>
-
-<details>
-<summary><b><a href="https://github.com/ANCILAR/ancilar-website">ANCILAR/ancilar-website</a></b> · 4 PRs · <a href="https://github.com/ANCILAR/ancilar-website/pulls?q=author%3Aozpool+is%3Apr">all →</a></summary>
-
-- [`#124`](https://github.com/ANCILAR/ancilar-website/pull/124) — enable theme toggle · `closed`
-- [`#88`](https://github.com/ANCILAR/ancilar-website/pull/88) — Minor changes · `merged`
-- [`#86`](https://github.com/ANCILAR/ancilar-website/pull/86) — Revamped contact us page · `merged`
-- [`#85`](https://github.com/ANCILAR/ancilar-website/pull/85) — Revamp service section · `merged`
 
 </details>
 <!-- END:outflow -->

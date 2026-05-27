@@ -112,7 +112,7 @@ render_group() {
 ############################################
 # 2. outflow — PRs the user opened in other repos
 ############################################
-gh api -X GET "search/issues" -f q="is:pr author:${USER_NAME} -user:${USER_NAME}" -f per_page=100 --paginate \
+gh api -X GET "search/issues" -f q="is:pr is:public author:${USER_NAME} -user:${USER_NAME}" -f per_page=100 --paginate \
   | jq -s '[.[].items[]]' > "$WORK/prs.json"
 
 render_group "$WORK/prs.json" pr > "$WORK/outflow.md"
@@ -123,7 +123,7 @@ fi
 ############################################
 # 3. issues-open
 ############################################
-gh api -X GET "search/issues" -f q="is:issue is:open author:${USER_NAME} -user:${USER_NAME}" -f per_page=100 --paginate \
+gh api -X GET "search/issues" -f q="is:issue is:open is:public author:${USER_NAME} -user:${USER_NAME}" -f per_page=100 --paginate \
   | jq -s '[.[].items[]]' > "$WORK/iopen.json"
 
 render_group "$WORK/iopen.json" issue > "$WORK/issues-open.md"
@@ -134,7 +134,7 @@ fi
 ############################################
 # 4. issues-closed
 ############################################
-gh api -X GET "search/issues" -f q="is:issue is:closed author:${USER_NAME} -user:${USER_NAME}" -f per_page=100 --paginate \
+gh api -X GET "search/issues" -f q="is:issue is:closed is:public author:${USER_NAME} -user:${USER_NAME}" -f per_page=100 --paginate \
   | jq -s '[.[].items[]]' > "$WORK/iclosed.json"
 
 render_group "$WORK/iclosed.json" issue > "$WORK/issues-closed.md"
