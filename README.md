@@ -69,9 +69,49 @@ go           ████           2y
 -->
 
 <!-- START:building -->
-- **[prism](https://github.com/ozpool/prism)** — Liquidity Management Protocol on Uniswap V4 · `Solidity` · ⭐ 1
-- **[Perplex](https://github.com/ozpool/Perplex)** — Perplex — dYdX-class decentralised perpetuals exchange. Off-chain Rust matching engine + on-chain Solidity settlement on Arbitrum. Pyth oracles, 8h funding, liquidation + ADL backstop, EIP-712 signed batch settlement. · `TypeScript`
-- **[Eigenvex](https://github.com/ozpool/Eigenvex)** — Perpetual futures protocol on Solana — hybrid orderbook + vAMM, cross-margin, DAO-curated listings · `—`
+<details>
+<summary><b><a href="https://github.com/ozpool/prism">prism</a></b> · `Solidity` · ⭐ 1 · updated 2026-05-07</summary>
+
+Liquidity Management Protocol on Uniswap V4
+
+</details>
+
+<details>
+<summary><b><a href="https://github.com/ozpool/Perplex">Perplex</a></b> · `TypeScript` · ⭐ 0 · updated 2026-05-27</summary>
+
+Perplex — dYdX-class decentralised perpetuals exchange. Off-chain Rust matching engine + on-chain Solidity settlement on Arbitrum. Pyth oracles, 8h funding, liquidation + ADL backstop, EIP-712 signed batch settlement.
+
+topics: `arbitrum` `axum` `defi` `dex` `ethereum` `foundry` `perpetuals` `pyth` `rust` `solidity`
+
+</details>
+
+<details>
+<summary><b><a href="https://github.com/ozpool/Eigenvex">Eigenvex</a></b> · `—` · ⭐ 0 · updated 2026-05-13</summary>
+
+Perpetual futures protocol on Solana — hybrid orderbook + vAMM, cross-margin, DAO-curated listings
+
+</details>
+
+<details>
+<summary><b><a href="https://github.com/ozpool/atlas-lend">atlas-lend</a></b> · `TypeScript` · ⭐ 0 · updated 2026-02-17</summary>
+
+_no description_
+
+</details>
+
+<details>
+<summary><b><a href="https://github.com/ozpool/Solidity0.1">Solidity0.1</a></b> · `—` · ⭐ 0 · updated 2025-11-05</summary>
+
+_no description_
+
+</details>
+
+<details>
+<summary><b><a href="https://github.com/ozpool/aave-solidity">aave-solidity</a></b> · `—` · ⭐ 0 · updated 2025-09-18</summary>
+
+_no description_
+
+</details>
 <!-- END:building -->
 
 ---

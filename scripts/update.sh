@@ -22,7 +22,7 @@ README_PATH="${README:-README.md}"
 PROFILE_REPO="${USER_NAME}/${USER_NAME}"
 MAX_ORGS=10
 MAX_ROWS=10
-MAX_BUILDING=8
+MAX_BUILDING=12
 
 require() { command -v "$1" >/dev/null 2>&1 || { echo "missing dependency: $1" >&2; exit 1; }; }
 require gh
@@ -44,16 +44,24 @@ jq -r --arg profile "$PROFILE_REPO" --argjson n "$MAX_BUILDING" '
     | select(.archived | not)
     | select(.private | not)
     | select(.full_name != $profile)
-    | select(.description != null and .description != "")
   ]
-  | sort_by(-(.stargazers_count // 0))
+  | sort_by(-(.stargazers_count // 0), -(.pushed_at | fromdateiso8601))
   | .[0:$n]
   | map(
-      "- **[\(.name)](\(.html_url))** — \(.description)"
+      "<details>\n"
+      + "<summary><b><a href=\"\(.html_url)\">\(.name)</a></b>"
       + " · `\(.language // "—")`"
-      + (if (.stargazers_count // 0) > 0 then " · ⭐ \(.stargazers_count)" else "" end)
+      + " · ⭐ \(.stargazers_count // 0)"
+      + (if (.forks_count // 0) > 0 then " · 🍴 \(.forks_count)" else "" end)
+      + " · updated \((.pushed_at // .updated_at) | sub("T.*"; ""))"
+      + "</summary>\n\n"
+      + ((.description // "_no description_") | gsub("[\r\n]+"; " "))
+      + (if ((.topics // []) | length) > 0
+         then "\n\ntopics: " + ((.topics // []) | map("`" + . + "`") | join(" "))
+         else "" end)
+      + "\n\n</details>"
     )
-  | join("\n")
+  | join("\n\n")
 ' "$WORK/repos.json" > "$WORK/building.md"
 
 if [ -z "$(tr -d '[:space:]' < "$WORK/building.md")" ]; then
