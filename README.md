@@ -168,8 +168,9 @@ Reentrancy, oracle manipulation, access control, arithmetic edges.
 
 <!-- START:outflow -->
 <details>
-<summary><b><a href="https://github.com/Soju06/codex-lb">Soju06/codex-lb</a></b> · 24 PRs · <a href="https://github.com/Soju06/codex-lb/pulls?q=author%3Aozpool+is%3Apr">all →</a></summary>
+<summary><b><a href="https://github.com/Soju06/codex-lb">Soju06/codex-lb</a></b> · 25 PRs · <a href="https://github.com/Soju06/codex-lb/pulls?q=author%3Aozpool+is%3Apr">all →</a></summary>
 
+- [`#846`](https://github.com/Soju06/codex-lb/pull/846) — test(api_keys): add coverage for limit_windows helpers (closes #845) · `open`
 - [`#829`](https://github.com/Soju06/codex-lb/pull/829) — feat(accounts): surface email-duplicate pairs in /api/accounts · `open`
 - [`#828`](https://github.com/Soju06/codex-lb/pull/828) — fix(sticky-sessions): chunk delete_entries to avoid sqlite bind overflow · `open`
 - [`#812`](https://github.com/Soju06/codex-lb/pull/812) — test(api-keys): add ApiKeyTable component tests · `merged`
@@ -179,7 +180,6 @@ Reentrancy, oracle manipulation, access control, arithmetic edges.
 - [`#744`](https://github.com/Soju06/codex-lb/pull/744) — fix(codex_version): fall back to npm registry when GitHub is rate-limited · `merged`
 - [`#743`](https://github.com/Soju06/codex-lb/pull/743) — chore(openspec): mark add-v1-api-key-usage tasks complete · `merged`
 - [`#721`](https://github.com/Soju06/codex-lb/pull/721) — fix(db): merge api_key_codex_model and sqlite_recovery alembic heads · `closed`
-- [`#720`](https://github.com/Soju06/codex-lb/pull/720) — fix(ci): unblock main — replace removed lucide-react Github icon + merge alembic heads · `closed`
 
 </details>
 
@@ -200,6 +200,22 @@ Reentrancy, oracle manipulation, access control, arithmetic edges.
 </details>
 
 <details>
+<summary><b><a href="https://github.com/ethereum/go-ethereum">ethereum/go-ethereum</a></b> · 12 PRs · <a href="https://github.com/ethereum/go-ethereum/pulls?q=author%3Aozpool+is%3Apr">all →</a></summary>
+
+- [`#35061`](https://github.com/ethereum/go-ethereum/pull/35061) — core: drop tx-lookup entries during chain rewind (closes #33744) · `closed`
+- [`#35060`](https://github.com/ethereum/go-ethereum/pull/35060) — core/txpool/locals: protect journal.writer with a dedicated mutex (closes #34983) · `open`
+- [`#34981`](https://github.com/ethereum/go-ethereum/pull/34981) — go.mod: bump golang.org/x/net to v0.53.0 to fix GO-2026-4918 · `open`
+- [`#34980`](https://github.com/ethereum/go-ethereum/pull/34980) — p2p/nat: bump pion/stun to v3 to pull in fixed pion/dtls · `merged`
+- [`#34971`](https://github.com/ethereum/go-ethereum/pull/34971) — rpc: count error responses against batch response size limit · `closed`
+- [`#34970`](https://github.com/ethereum/go-ethereum/pull/34970) — core/txpool/blobpool: preserve limbo entry on update store failure · `open`
+- [`#34968`](https://github.com/ethereum/go-ethereum/pull/34968) — node: match vhost allowlist case-insensitively · `closed`
+- [`#34959`](https://github.com/ethereum/go-ethereum/pull/34959) — core/state/snapshot: make diskLayer.stopGeneration idempotent · `closed`
+- [`#34958`](https://github.com/ethereum/go-ethereum/pull/34958) — cmd/geth: report disk space cleared on prune-history completion · `open`
+- [`#34928`](https://github.com/ethereum/go-ethereum/pull/34928) — rpc: accept Windows reset error in websocket read limit test · `open`
+
+</details>
+
+<details>
 <summary><b><a href="https://github.com/cosmos/cosmos-sdk">cosmos/cosmos-sdk</a></b> · 11 PRs · <a href="https://github.com/cosmos/cosmos-sdk/pulls?q=author%3Aozpool+is%3Apr">all →</a></summary>
 
 - [`#26453`](https://github.com/cosmos/cosmos-sdk/pull/26453) — test(baseapp): pin gRPC Query / FinalizeBlock concurrency safety · `merged`
@@ -212,22 +228,6 @@ Reentrancy, oracle manipulation, access control, arithmetic edges.
 - [`#26414`](https://github.com/cosmos/cosmos-sdk/pull/26414) — fix(cosmovisor): switch to staged upgrade binary on startup · `open`
 - [`#26399`](https://github.com/cosmos/cosmos-sdk/pull/26399) — fix(x/auth/tx)!: reject deprecated Pagination in GetTxsEvent · `open`
 - [`#26362`](https://github.com/cosmos/cosmos-sdk/pull/26362) — docs(swagger): regenerate Swagger API spec to match current protos · `merged`
-
-</details>
-
-<details>
-<summary><b><a href="https://github.com/ethereum/go-ethereum">ethereum/go-ethereum</a></b> · 10 PRs · <a href="https://github.com/ethereum/go-ethereum/pulls?q=author%3Aozpool+is%3Apr">all →</a></summary>
-
-- [`#34981`](https://github.com/ethereum/go-ethereum/pull/34981) — go.mod: bump golang.org/x/net to v0.53.0 to fix GO-2026-4918 · `open`
-- [`#34980`](https://github.com/ethereum/go-ethereum/pull/34980) — p2p/nat: bump pion/stun to v3 to pull in fixed pion/dtls · `merged`
-- [`#34971`](https://github.com/ethereum/go-ethereum/pull/34971) — rpc: count error responses against batch response size limit · `closed`
-- [`#34970`](https://github.com/ethereum/go-ethereum/pull/34970) — core/txpool/blobpool: preserve limbo entry on update store failure · `open`
-- [`#34968`](https://github.com/ethereum/go-ethereum/pull/34968) — node: match vhost allowlist case-insensitively · `closed`
-- [`#34959`](https://github.com/ethereum/go-ethereum/pull/34959) — core/state/snapshot: make diskLayer.stopGeneration idempotent · `closed`
-- [`#34958`](https://github.com/ethereum/go-ethereum/pull/34958) — cmd/geth: report disk space cleared on prune-history completion · `open`
-- [`#34928`](https://github.com/ethereum/go-ethereum/pull/34928) — rpc: accept Windows reset error in websocket read limit test · `open`
-- [`#34855`](https://github.com/ethereum/go-ethereum/pull/34855) — internal/ethapi, eth, eth/catalyst: gate eth_syncing on CL handshake · `open`
-- [`#34854`](https://github.com/ethereum/go-ethereum/pull/34854) — eth/protocols/snap: validate trie node path length · `open`
 
 </details>
 
@@ -257,6 +257,13 @@ by `scripts/update.sh`.</sub>
 ### 🟢 open
 
 <!-- START:issues-open -->
+<details>
+<summary><b><a href="https://github.com/Soju06/codex-lb">Soju06/codex-lb</a></b> · 1 issue</summary>
+
+- [`#845`](https://github.com/Soju06/codex-lb/issues/845) — test(api_keys): add coverage for limit_windows helpers
+
+</details>
+
 <details>
 <summary><b><a href="https://github.com/solana-foundation/solana-go">solana-foundation/solana-go</a></b> · 1 issue</summary>
 
