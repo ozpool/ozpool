@@ -4,11 +4,19 @@
   <img src="https://readme-typing-svg.demolab.com/?lines=ozpool+%C2%B7+blockchain+%26+smart-contract+engineer;five+years+writing+code+that+holds+under+load;defi+%C2%B7+nfts+%C2%B7+cross-chain+%C2%B7+smart-contract+infra&font=Fira+Code&center=true&width=720&height=48&color=06B6D4&vCenter=true&size=20&pause=1200" alt="ozpool" />
 </a>
 
-<p>
-  <img src="https://komarev.com/ghpvc/?username=ozpool&style=for-the-badge&color=06B6D4&label=PROFILE+VIEWS" alt="views" />
-  <img src="https://img.shields.io/github/followers/ozpool?style=for-the-badge&color=14B8A6&labelColor=0F172A" alt="followers" />
-  <img src="https://img.shields.io/badge/open_to-audits_%26_contracts-22D3EE?style=for-the-badge&labelColor=0F172A" alt="open to" />
-</p>
+</div>
+
+---
+
+## 🌱 github activity
+
+<sub>contribution heatmap — last 365 days. served by
+[`ghchart.rshah.org`](https://github.com/2016rshah/githubchart-api),
+tinted to match the cyan accents.</sub>
+
+<div align="center">
+
+[![ozpool contribution graph](https://ghchart.rshah.org/06B6D4/ozpool)](https://github.com/ozpool)
 
 </div>
 
@@ -38,7 +46,6 @@ contract architecture.
 │  📬   available    yes — solidity audits + contracts  │
 │  🌊   signature    pool runs deep                     │
 │  ⚡   response     ~24h                               │
-│  🔗   reach        github.com/ozpool                  │
 └──────────────────────────────────────────────────────┘
 ```
 
@@ -52,9 +59,13 @@ contract architecture.
 solidity     ████████████   5y
 foundry      ███████████   ~5y
 typescript   █████████      4y
+javascript   █████████      4y
 rust         ████████       3y
+python       ███████        3y
 layerzero    ██████         3y
 go           ████           2y
+vyper        ████           2y
+move         ██             1y
 ```
 
 ---
@@ -273,18 +284,14 @@ _no closed issues filed._
 
 ---
 
-## 🌱 github activity
-
-<sub>contribution heatmap — last 365 days. served by
-[`ghchart.rshah.org`](https://github.com/2016rshah/githubchart-api),
-tinted to match the cyan accents.</sub>
-
 <div align="center">
 
-[![ozpool contribution graph](https://ghchart.rshah.org/06B6D4/ozpool)](https://github.com/ozpool)
+<p>
+  <img src="https://komarev.com/ghpvc/?username=ozpool&style=for-the-badge&color=06B6D4&label=PROFILE+VIEWS" alt="views" />
+  <img src="https://img.shields.io/github/followers/ozpool?style=for-the-badge&color=14B8A6&labelColor=0F172A" alt="followers" />
+  <img src="https://img.shields.io/badge/open_to-audits_%26_contracts-22D3EE?style=for-the-badge&labelColor=0F172A" alt="open to" />
+</p>
 
 </div>
-
----
 
 <p align="center"><sub><i>🌊 deep pool, slow drain.</i></sub></p>
