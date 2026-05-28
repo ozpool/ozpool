@@ -38,7 +38,56 @@ trap 'rm -rf "$WORK"' EXIT
 gh api "users/${USER_NAME}/repos?per_page=100&type=owner&sort=updated" --paginate \
   | jq -s 'flatten' > "$WORK/repos.json"
 
-jq -r --arg profile "$PROFILE_REPO" --argjson n "$MAX_BUILDING" '
+# Build readme-excerpt map: { "owner/repo": "first meaningful paragraph", ... }
+echo '{}' > "$WORK/excerpts.json"
+selected_repos=$(jq -r --arg profile "$PROFILE_REPO" --argjson n "$MAX_BUILDING" '
+  [ .[]
+    | select(.fork | not)
+    | select(.archived | not)
+    | select(.private | not)
+    | select(.full_name != $profile)
+  ]
+  | sort_by(-(.stargazers_count // 0), -(.pushed_at | fromdateiso8601))
+  | .[0:$n]
+  | .[].full_name
+' "$WORK/repos.json")
+
+for repo in $selected_repos; do
+  raw=$(gh api "repos/${repo}/readme" -H "Accept: application/vnd.github.raw" 2>/dev/null || true)
+  # drop 404 JSON error bodies
+  case "$raw" in
+    '{"message"'*) raw="" ;;
+  esac
+  excerpt=$(printf '%s\n' "$raw" \
+    | awk '
+        BEGIN { in_code = 0; got = 0 }
+        /^```/ { in_code = !in_code; next }
+        in_code { next }
+        /^#/ { next }
+        /^[[:space:]]*$/ { if (got) exit; next }
+        /^!\[/ { next }
+        /^\[\!\[/ { next }
+        /^<[^>]+>[[:space:]]*$/ { next }
+        /^---[[:space:]]*$/ { next }
+        /^===[[:space:]]*$/ { next }
+        /^>/ { next }
+        /^\|/ { next }
+        {
+          gsub(/\[([^]]*)\]\([^)]*\)/, "\\1")
+          gsub(/<[^>]+>/, "")
+          gsub(/[`*_]/, "")
+          print
+          got = 1
+        }
+      ' \
+    | tr '\n' ' ' \
+    | sed 's/  */ /g; s/^ *//; s/ *$//' \
+    | head -c 500)
+  jq --arg repo "$repo" --arg ex "$excerpt" '. + {($repo): $ex}' "$WORK/excerpts.json" > "$WORK/excerpts.json.tmp"
+  mv "$WORK/excerpts.json.tmp" "$WORK/excerpts.json"
+done
+
+jq -r --arg profile "$PROFILE_REPO" --argjson n "$MAX_BUILDING" --slurpfile excerpts "$WORK/excerpts.json" '
   [ .[]
     | select(.fork | not)
     | select(.archived | not)
@@ -48,16 +97,14 @@ jq -r --arg profile "$PROFILE_REPO" --argjson n "$MAX_BUILDING" '
   | sort_by(-(.stargazers_count // 0), -(.pushed_at | fromdateiso8601))
   | .[0:$n]
   | map(
-      "<details>\n"
-      + "<summary><b><a href=\"\(.html_url)\">\(.name)</a></b>"
-      + " · `\(.language // "—")`"
-      + " · ⭐ \(.stargazers_count // 0)"
-      + (if (.forks_count // 0) > 0 then " · 🍴 \(.forks_count)" else "" end)
-      + " · updated \((.pushed_at // .updated_at) | sub("T.*"; ""))"
-      + "</summary>\n\n"
-      + ((.description // "_no description_") | gsub("[\r\n]+"; " "))
-      + (if ((.topics // []) | length) > 0
-         then "\n\ntopics: " + ((.topics // []) | map("`" + . + "`") | join(" "))
+      . as $r
+      | (.description // "_no description_") as $oneliner
+      | (($excerpts[0][$r.full_name] // "") | gsub("[\r\n]+"; " ")) as $body
+      | "<details>\n"
+      + "<summary><b><a href=\"\($r.html_url)\">\($r.name)</a></b> — \($oneliner)</summary>\n\n"
+      + (if ($body | length) > 0 then $body else $oneliner end)
+      + (if (($r.topics // []) | length) > 0
+         then "\n\ntopics: " + (($r.topics // []) | map("`" + . + "`") | join(" "))
          else "" end)
       + "\n\n</details>"
     )

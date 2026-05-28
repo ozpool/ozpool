@@ -70,44 +70,44 @@ go           ████           2y
 
 <!-- START:building -->
 <details>
-<summary><b><a href="https://github.com/ozpool/prism">prism</a></b> · `Solidity` · ⭐ 1 · updated 2026-05-07</summary>
+<summary><b><a href="https://github.com/ozpool/prism">prism</a></b> — Liquidity Management Protocol on Uniswap V4</summary>
 
-Liquidity Management Protocol on Uniswap V4
+PRISM wraps a Uniswap V4 pool in a vault that refracts LP capital across a configurable spectrum of tick-range positions. Where V3-era LM (Gamma, Arrakis) smoothed day-to-day LP work but remained bottlenecked by centralized advisors, PRISM uses V4's hook primitive and EIP-1153 flash accounting to push the entire management loop on-chain:
 
 </details>
 
 <details>
-<summary><b><a href="https://github.com/ozpool/Perplex">Perplex</a></b> · `TypeScript` · ⭐ 0 · updated 2026-05-27</summary>
+<summary><b><a href="https://github.com/ozpool/Perplex">Perplex</a></b> — Perplex — dYdX-class decentralised perpetuals exchange. Off-chain Rust matching engine + on-chain Solidity settlement on Arbitrum. Pyth oracles, 8h funding, liquidation + ADL backstop, EIP-712 signed batch settlement.</summary>
 
-Perplex — dYdX-class decentralised perpetuals exchange. Off-chain Rust matching engine + on-chain Solidity settlement on Arbitrum. Pyth oracles, 8h funding, liquidation + ADL backstop, EIP-712 signed batch settlement.
+A dYdX-class decentralised perpetual-futures exchange. Orderbook-matched. USDC-collateralised. Self-custodial. Built for Arbitrum.
 
 topics: `arbitrum` `axum` `defi` `dex` `ethereum` `foundry` `perpetuals` `pyth` `rust` `solidity`
 
 </details>
 
 <details>
-<summary><b><a href="https://github.com/ozpool/Eigenvex">Eigenvex</a></b> · `—` · ⭐ 0 · updated 2026-05-13</summary>
+<summary><b><a href="https://github.com/ozpool/Eigenvex">Eigenvex</a></b> — Perpetual futures protocol on Solana — hybrid orderbook + vAMM, cross-margin, DAO-curated listings</summary>
 
 Perpetual futures protocol on Solana — hybrid orderbook + vAMM, cross-margin, DAO-curated listings
 
 </details>
 
 <details>
-<summary><b><a href="https://github.com/ozpool/atlas-lend">atlas-lend</a></b> · `TypeScript` · ⭐ 0 · updated 2026-02-17</summary>
+<summary><b><a href="https://github.com/ozpool/atlas-lend">atlas-lend</a></b> — _no description_</summary>
+
+All contributions must follow the repository's issue and pull request templates.
+
+</details>
+
+<details>
+<summary><b><a href="https://github.com/ozpool/Solidity0.1">Solidity0.1</a></b> — _no description_</summary>
 
 _no description_
 
 </details>
 
 <details>
-<summary><b><a href="https://github.com/ozpool/Solidity0.1">Solidity0.1</a></b> · `—` · ⭐ 0 · updated 2025-11-05</summary>
-
-_no description_
-
-</details>
-
-<details>
-<summary><b><a href="https://github.com/ozpool/aave-solidity">aave-solidity</a></b> · `—` · ⭐ 0 · updated 2025-09-18</summary>
+<summary><b><a href="https://github.com/ozpool/aave-solidity">aave-solidity</a></b> — _no description_</summary>
 
 _no description_
 
