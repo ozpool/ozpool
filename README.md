@@ -86,6 +86,20 @@ topics: `arbitrum` `axum` `defi` `dex` `ethereum` `foundry` `perpetuals` `pyth` 
 </details>
 
 <details>
+<summary><b><a href="https://github.com/ozpool/Devbounty-backend-">Devbounty-backend-</a></b> — _no description_</summary>
+
+_no description_
+
+</details>
+
+<details>
+<summary><b><a href="https://github.com/ozpool/devbounty-backend">devbounty-backend</a></b> — Decentralized bug-bounty platform — smart-contract escrow on Arbitrum Sepolia (USDC) released by GitHub merge webhooks. Express API + indexer + Hardhat contracts (npm workspaces).</summary>
+
+This repo is an npm-workspaces monorepo holding the Express API, the chain indexer, and the Hardhat smart contracts. The Next.js frontend lives in a separate repo, devbounty-web.
+
+</details>
+
+<details>
 <summary><b><a href="https://github.com/ozpool/Eigenvex">Eigenvex</a></b> — Perpetual futures protocol on Solana — hybrid orderbook + vAMM, cross-margin, DAO-curated listings</summary>
 
 Perpetual futures protocol on Solana — hybrid orderbook + vAMM, cross-margin, DAO-curated listings
@@ -188,7 +202,7 @@ Reentrancy, oracle manipulation, access control, arithmetic edges.
 
 - [`#447`](https://github.com/solana-foundation/solana-go/pull/447) — fix(rpc): default simulateTransaction Accounts.Encoding to base64 (closes #446) · `open`
 - [`#445`](https://github.com/solana-foundation/solana-go/pull/445) — feat(address-lookup-table): one-call resolve for message lookups (closes #262) · `open`
-- [`#442`](https://github.com/solana-foundation/solana-go/pull/442) — feat(rpc): forward MinContextSlot in getBalance / getLatestBlockhash / getSlot / getTokenAccountBalance · `open`
+- [`#442`](https://github.com/solana-foundation/solana-go/pull/442) — feat(rpc): forward MinContextSlot in getBalance/getLatestBlockhash/getSlot/getTokenAccountBalance · `open`
 - [`#441`](https://github.com/solana-foundation/solana-go/pull/441) — fix(message): surface typed `ErrAddressTablesNotSet` from AccountMetaList (closes #280) · `open`
 - [`#440`](https://github.com/solana-foundation/solana-go/pull/440) — fix(token,token-2022): Build() sets Impl to *T, matching DecodeInstruction (closes #222) · `open`
 - [`#439`](https://github.com/solana-foundation/solana-go/pull/439) — fix(token,token-2022): per-instruction ProgramID override (closes #254) · `open`
@@ -196,6 +210,22 @@ Reentrancy, oracle manipulation, access control, arithmetic edges.
 - [`#434`](https://github.com/solana-foundation/solana-go/pull/434) — feat(ws): support dataSlice in ProgramSubscribe · `merged`
 - [`#433`](https://github.com/solana-foundation/solana-go/pull/433) — feat(ws): support dataSlice in AccountSubscribe · `merged`
 - [`#432`](https://github.com/solana-foundation/solana-go/pull/432) — feat(ws): support enableReceivedNotification in SignatureSubscribe · `merged`
+
+</details>
+
+<details>
+<summary><b><a href="https://github.com/cosmos/cosmos-sdk">cosmos/cosmos-sdk</a></b> · 12 PRs · <a href="https://github.com/cosmos/cosmos-sdk/pulls?q=author%3Aozpool+is%3Apr">all →</a></summary>
+
+- [`#26474`](https://github.com/cosmos/cosmos-sdk/pull/26474) — fix(runtime): expose all autocli services, not just the last · `open`
+- [`#26453`](https://github.com/cosmos/cosmos-sdk/pull/26453) — test(baseapp): pin gRPC Query / FinalizeBlock concurrency safety · `merged`
+- [`#26452`](https://github.com/cosmos/cosmos-sdk/pull/26452) — feat(baseapp): emit gen-tx events on finalize-state EventManager · `closed`
+- [`#26427`](https://github.com/cosmos/cosmos-sdk/pull/26427) — fix(store/cachemulti): isolate traceContext map across branched stores · `merged`
+- [`#26426`](https://github.com/cosmos/cosmos-sdk/pull/26426) — feat(x/bank): add ValidateBounds for denom-metadata size caps · `closed`
+- [`#26423`](https://github.com/cosmos/cosmos-sdk/pull/26423) — fix(x/upgrade/plan): accept Windows .exe daemon in archive layouts · `closed`
+- [`#26422`](https://github.com/cosmos/cosmos-sdk/pull/26422) — fix(x/auth/tx): propagate signing options from codec to NewTxConfig · `merged`
+- [`#26415`](https://github.com/cosmos/cosmos-sdk/pull/26415) — perf(x/bank)!: skip HasAccount probe when recipient already has a balance · `open`
+- [`#26414`](https://github.com/cosmos/cosmos-sdk/pull/26414) — fix(cosmovisor): switch to staged upgrade binary on startup · `open`
+- [`#26399`](https://github.com/cosmos/cosmos-sdk/pull/26399) — fix(x/auth/tx)!: reject deprecated Pagination in GetTxsEvent · `open`
 
 </details>
 
@@ -212,22 +242,6 @@ Reentrancy, oracle manipulation, access control, arithmetic edges.
 - [`#34959`](https://github.com/ethereum/go-ethereum/pull/34959) — core/state/snapshot: make diskLayer.stopGeneration idempotent · `closed`
 - [`#34958`](https://github.com/ethereum/go-ethereum/pull/34958) — cmd/geth: report disk space cleared on prune-history completion · `open`
 - [`#34928`](https://github.com/ethereum/go-ethereum/pull/34928) — rpc: accept Windows reset error in websocket read limit test · `open`
-
-</details>
-
-<details>
-<summary><b><a href="https://github.com/cosmos/cosmos-sdk">cosmos/cosmos-sdk</a></b> · 11 PRs · <a href="https://github.com/cosmos/cosmos-sdk/pulls?q=author%3Aozpool+is%3Apr">all →</a></summary>
-
-- [`#26453`](https://github.com/cosmos/cosmos-sdk/pull/26453) — test(baseapp): pin gRPC Query / FinalizeBlock concurrency safety · `merged`
-- [`#26452`](https://github.com/cosmos/cosmos-sdk/pull/26452) — feat(baseapp): emit gen-tx events on finalize-state EventManager · `closed`
-- [`#26427`](https://github.com/cosmos/cosmos-sdk/pull/26427) — fix(store/cachemulti): isolate traceContext map across branched stores · `merged`
-- [`#26426`](https://github.com/cosmos/cosmos-sdk/pull/26426) — feat(x/bank): add ValidateBounds for denom-metadata size caps · `closed`
-- [`#26423`](https://github.com/cosmos/cosmos-sdk/pull/26423) — fix(x/upgrade/plan): accept Windows .exe daemon in archive layouts · `closed`
-- [`#26422`](https://github.com/cosmos/cosmos-sdk/pull/26422) — fix(x/auth/tx): propagate signing options from codec to NewTxConfig · `merged`
-- [`#26415`](https://github.com/cosmos/cosmos-sdk/pull/26415) — perf(x/bank)!: skip HasAccount probe when recipient already has a balance · `open`
-- [`#26414`](https://github.com/cosmos/cosmos-sdk/pull/26414) — fix(cosmovisor): switch to staged upgrade binary on startup · `open`
-- [`#26399`](https://github.com/cosmos/cosmos-sdk/pull/26399) — fix(x/auth/tx)!: reject deprecated Pagination in GetTxsEvent · `open`
-- [`#26362`](https://github.com/cosmos/cosmos-sdk/pull/26362) — docs(swagger): regenerate Swagger API spec to match current protos · `merged`
 
 </details>
 
