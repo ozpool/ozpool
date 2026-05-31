@@ -77,6 +77,20 @@ PRISM wraps a Uniswap V4 pool in a vault that refracts LP capital across a confi
 </details>
 
 <details>
+<summary><b><a href="https://github.com/ozpool/Devbounty-frontend">Devbounty-frontend</a></b> — _no description_</summary>
+
+_no description_
+
+</details>
+
+<details>
+<summary><b><a href="https://github.com/ozpool/Dev">Dev</a></b> — _no description_</summary>
+
+_no description_
+
+</details>
+
+<details>
 <summary><b><a href="https://github.com/ozpool/Perplex">Perplex</a></b> — Perplex — dYdX-class decentralised perpetuals exchange. Off-chain Rust matching engine + on-chain Solidity settlement on Arbitrum. Pyth oracles, 8h funding, liquidation + ADL backstop, EIP-712 signed batch settlement.</summary>
 
 A dYdX-class decentralised perpetual-futures exchange. Orderbook-matched. USDC-collateralised. Self-custodial. Built for Arbitrum.
