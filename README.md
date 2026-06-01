@@ -198,9 +198,9 @@ Reentrancy, oracle manipulation, access control, arithmetic edges.
 <details>
 <summary><b><a href="https://github.com/Soju06/codex-lb">Soju06/codex-lb</a></b> · 25 PRs · <a href="https://github.com/Soju06/codex-lb/pulls?q=author%3Aozpool+is%3Apr">all →</a></summary>
 
-- [`#846`](https://github.com/Soju06/codex-lb/pull/846) — test(api_keys): add coverage for limit_windows helpers (closes #845) · `open`
+- [`#846`](https://github.com/Soju06/codex-lb/pull/846) — test(api_keys): add coverage for limit_windows helpers (closes #845) · `merged`
 - [`#829`](https://github.com/Soju06/codex-lb/pull/829) — feat(accounts): surface email-duplicate pairs in /api/accounts · `open`
-- [`#828`](https://github.com/Soju06/codex-lb/pull/828) — fix(sticky-sessions): chunk delete_entries to avoid sqlite bind overflow · `open`
+- [`#828`](https://github.com/Soju06/codex-lb/pull/828) — fix(sticky-sessions): chunk delete_entries to avoid sqlite bind overflow · `merged`
 - [`#812`](https://github.com/Soju06/codex-lb/pull/812) — test(api-keys): add ApiKeyTable component tests · `merged`
 - [`#811`](https://github.com/Soju06/codex-lb/pull/811) — test(settings): add ImportSettings component tests · `merged`
 - [`#799`](https://github.com/Soju06/codex-lb/pull/799) — fix(accounts): reuse existing row on reauth for same ChatGPT identity (closes #788) · `open`
@@ -247,7 +247,7 @@ Reentrancy, oracle manipulation, access control, arithmetic edges.
 <summary><b><a href="https://github.com/ethereum/go-ethereum">ethereum/go-ethereum</a></b> · 12 PRs · <a href="https://github.com/ethereum/go-ethereum/pulls?q=author%3Aozpool+is%3Apr">all →</a></summary>
 
 - [`#35061`](https://github.com/ethereum/go-ethereum/pull/35061) — core: drop tx-lookup entries during chain rewind (closes #33744) · `closed`
-- [`#35060`](https://github.com/ethereum/go-ethereum/pull/35060) — core/txpool/locals: protect journal.writer with a dedicated mutex (closes #34983) · `open`
+- [`#35060`](https://github.com/ethereum/go-ethereum/pull/35060) — core/txpool/locals: protect journal.writer with a dedicated mutex (closes #34983) · `closed`
 - [`#34981`](https://github.com/ethereum/go-ethereum/pull/34981) — go.mod: bump golang.org/x/net to v0.53.0 to fix GO-2026-4918 · `open`
 - [`#34980`](https://github.com/ethereum/go-ethereum/pull/34980) — p2p/nat: bump pion/stun to v3 to pull in fixed pion/dtls · `merged`
 - [`#34971`](https://github.com/ethereum/go-ethereum/pull/34971) — rpc: count error responses against batch response size limit · `closed`
@@ -286,13 +286,6 @@ by `scripts/update.sh`.</sub>
 
 <!-- START:issues-open -->
 <details>
-<summary><b><a href="https://github.com/Soju06/codex-lb">Soju06/codex-lb</a></b> · 1 issue</summary>
-
-- [`#845`](https://github.com/Soju06/codex-lb/issues/845) — test(api_keys): add coverage for limit_windows helpers
-
-</details>
-
-<details>
 <summary><b><a href="https://github.com/solana-foundation/solana-go">solana-foundation/solana-go</a></b> · 1 issue</summary>
 
 - [`#446`](https://github.com/solana-foundation/solana-go/issues/446) — simulateTransaction: SimulateTransactionAccountsOpts.Encoding defaults to empty string, validator rejects
@@ -303,7 +296,12 @@ by `scripts/update.sh`.</sub>
 ### 🟣 closed
 
 <!-- START:issues-closed -->
-_no closed issues filed._
+<details>
+<summary><b><a href="https://github.com/Soju06/codex-lb">Soju06/codex-lb</a></b> · 1 issue</summary>
+
+- [`#845`](https://github.com/Soju06/codex-lb/issues/845) — test(api_keys): add coverage for limit_windows helpers
+
+</details>
 <!-- END:issues-closed -->
 
 ---
