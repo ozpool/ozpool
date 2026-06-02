@@ -199,11 +199,11 @@ Reentrancy, oracle manipulation, access control, arithmetic edges.
 <summary><b><a href="https://github.com/Soju06/codex-lb">Soju06/codex-lb</a></b> · 25 PRs · <a href="https://github.com/Soju06/codex-lb/pulls?q=author%3Aozpool+is%3Apr">all →</a></summary>
 
 - [`#846`](https://github.com/Soju06/codex-lb/pull/846) — test(api_keys): add coverage for limit_windows helpers (closes #845) · `merged`
-- [`#829`](https://github.com/Soju06/codex-lb/pull/829) — feat(accounts): surface email-duplicate pairs in /api/accounts · `open`
+- [`#829`](https://github.com/Soju06/codex-lb/pull/829) — feat(accounts): surface email-duplicate pairs in /api/accounts · `merged`
 - [`#828`](https://github.com/Soju06/codex-lb/pull/828) — fix(sticky-sessions): chunk delete_entries to avoid sqlite bind overflow · `merged`
 - [`#812`](https://github.com/Soju06/codex-lb/pull/812) — test(api-keys): add ApiKeyTable component tests · `merged`
 - [`#811`](https://github.com/Soju06/codex-lb/pull/811) — test(settings): add ImportSettings component tests · `merged`
-- [`#799`](https://github.com/Soju06/codex-lb/pull/799) — fix(accounts): reuse existing row on reauth for same ChatGPT identity (closes #788) · `open`
+- [`#799`](https://github.com/Soju06/codex-lb/pull/799) — fix(accounts): reuse existing row on reauth for same ChatGPT identity (closes #788) · `closed`
 - [`#798`](https://github.com/Soju06/codex-lb/pull/798) — docs(readme): lowercase codex provider name to match Codex 2026-05-23 update · `merged`
 - [`#744`](https://github.com/Soju06/codex-lb/pull/744) — fix(codex_version): fall back to npm registry when GitHub is rate-limited · `merged`
 - [`#743`](https://github.com/Soju06/codex-lb/pull/743) — chore(openspec): mark add-v1-api-key-usage tasks complete · `merged`
