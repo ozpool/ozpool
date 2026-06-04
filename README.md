@@ -255,7 +255,7 @@ Reentrancy, oracle manipulation, access control, arithmetic edges.
 - [`#34968`](https://github.com/ethereum/go-ethereum/pull/34968) — node: match vhost allowlist case-insensitively · `closed`
 - [`#34959`](https://github.com/ethereum/go-ethereum/pull/34959) — core/state/snapshot: make diskLayer.stopGeneration idempotent · `closed`
 - [`#34958`](https://github.com/ethereum/go-ethereum/pull/34958) — cmd/geth: report disk space cleared on prune-history completion · `open`
-- [`#34928`](https://github.com/ethereum/go-ethereum/pull/34928) — rpc: accept Windows reset error in websocket read limit test · `open`
+- [`#34928`](https://github.com/ethereum/go-ethereum/pull/34928) — rpc: accept Windows reset error in websocket read limit test · `merged`
 
 </details>
 
