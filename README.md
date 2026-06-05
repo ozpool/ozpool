@@ -77,6 +77,13 @@ PRISM wraps a Uniswap V4 pool in a vault that refracts LP capital across a confi
 </details>
 
 <details>
+<summary><b><a href="https://github.com/ozpool/devbounty-backend">devbounty-backend</a></b> — Decentralized bug-bounty platform — smart-contract escrow on Arbitrum Sepolia (USDC) released by GitHub merge webhooks. Express API + indexer + Hardhat contracts (npm workspaces).</summary>
+
+This repo is an npm-workspaces monorepo holding the Express API, the chain indexer, and the Hardhat smart contracts. The Next.js frontend lives in a separate repo, devbounty-web.
+
+</details>
+
+<details>
 <summary><b><a href="https://github.com/ozpool/Devbounty-frontend">Devbounty-frontend</a></b> — _no description_</summary>
 
 _no description_
@@ -103,13 +110,6 @@ topics: `arbitrum` `axum` `defi` `dex` `ethereum` `foundry` `perpetuals` `pyth` 
 <summary><b><a href="https://github.com/ozpool/Devbounty-backend-">Devbounty-backend-</a></b> — _no description_</summary>
 
 _no description_
-
-</details>
-
-<details>
-<summary><b><a href="https://github.com/ozpool/devbounty-backend">devbounty-backend</a></b> — Decentralized bug-bounty platform — smart-contract escrow on Arbitrum Sepolia (USDC) released by GitHub merge webhooks. Express API + indexer + Hardhat contracts (npm workspaces).</summary>
-
-This repo is an npm-workspaces monorepo holding the Express API, the chain indexer, and the Hardhat smart contracts. The Next.js frontend lives in a separate repo, devbounty-web.
 
 </details>
 
